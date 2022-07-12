@@ -37,31 +37,30 @@
             <p>hogehoge</p>
         </div>
     </div>
-</body>
-
-<style>
-    .box {
-        background-color: blue;
-        color: aliceblue;
-        height: 400px;
-        width: 200px;
-        float: left;
-        position: fixed;
-        margin-top: 50px;
-    }
-</style>
-
-<script>
-    $('#btn').click(
-        function () {
-            if ($('#box').css('display') == 'none') {
-                $('#box').css('display', 'block');
-            } else {
-                $('#box').css('display', 'none');
-            }
+    <style>
+        .box {
+            background-color: blue;
+            color: aliceblue;
+            height: 400px;
+            width: 200px;
+            float: left;
+            position: fixed;
+            margin-top: 50px;
         }
-    );
-</script>
-<script src="https://scepter.app/scepter.js?id=36eda822e6da22a2f4492dff491d01b1f25a7ff6"></script>
+    </style>
+
+    <script>
+        $('#btn').click(
+            function () {
+                if ($('#box').css('display') == 'none') {
+                    $('#box').css('display', 'block');
+                } else {
+                    $('#box').css('display', 'none');
+                }
+            }
+        );
+    </script>
+    <script src="https://scepter.app/scepter.js?id=36eda822e6da22a2f4492dff491d01b1f25a7ff6"></script>
+</body>
 
 </html>
